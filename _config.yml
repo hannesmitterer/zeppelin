@@ -1,0 +1,62 @@
+# Zeppelin Home - GitHub Pages Configuration
+title: "Zeppelin Home"
+description: "Revolutionary home automation platform - Open source, community-driven smart home solutions"
+baseurl: ""
+url: "https://hannesmitterer.github.io/zeppelin-"
+
+# GitHub Pages settings
+repository: hannesmitterer/zeppelin-
+github_username: hannesmitterer
+
+# Jekyll theme
+theme: minima
+
+# Navigation
+header_pages:
+  - docs/index.md
+
+# SEO and social
+author:
+  name: "Zeppelin Home Project"
+  email: "press@zeppelinhome.com"
+
+social_links:
+  - { platform: github, user_url: "https://github.com/hannesmitterer/zeppelin-" }
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/
+  - GITHUB_PAGES_SETUP.md
+  - .bundle/
+  - .github-pages-cache/
+
+# Include directories that might be ignored by default
+include:
+  - .htaccess
+  - _pages
