@@ -38,6 +38,9 @@ Our GitHub Pages site showcases:
 ### Quick Start for Contributors
 
 ```bash
+# Validate deployment readiness
+./scripts/validate-deployment.sh
+
 # Install dependencies and start development server
 ./scripts/deploy.sh serve
 
