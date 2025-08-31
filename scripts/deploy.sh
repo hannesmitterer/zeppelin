@@ -46,7 +46,8 @@ check_environment() {
 # Install dependencies
 install_deps() {
     echo -e "${BLUE}📦 Installing Jekyll dependencies...${NC}"
-    bundle install --path vendor/bundle
+    bundle config set --local path 'vendor/bundle'
+    bundle install
     print_success "Dependencies installed"
 }
 
