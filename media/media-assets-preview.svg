@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150" width="600" height="150">
+  <rect width="600" height="150" fill="#f8f9fa" stroke="#dee2e6" rx="10"/>
+  <text x="300" y="80" font-family="Arial, sans-serif" font-size="18" fill="#6c757d" text-anchor="middle">📁 Media Assets Preview</text>
+  <text x="300" y="110" font-family="Arial, sans-serif" font-size="14" fill="#6c757d" text-anchor="middle">Logos • Screenshots • Graphics • Press Materials</text>
+</svg>

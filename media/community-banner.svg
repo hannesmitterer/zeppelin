@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="700" height="200">
+  <defs>
+    <linearGradient id="commBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#17a2b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20c997;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="700" height="200" fill="url(#commBg)" rx="10"/>
+  <text x="50" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff">🤝 Join Our Community</text>
+  <text x="50" y="110" font-family="Arial, sans-serif" font-size="16" fill="#fff">Connect with smart home enthusiasts worldwide</text>
+  <text x="50" y="140" font-family="Arial, sans-serif" font-size="14" fill="#fff" opacity="0.9">Discord • Forums • GitHub • Support</text>
+</svg>

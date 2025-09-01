@@ -8,7 +8,7 @@ title: "Home"
 
 Welcome to the future of home automation. Zeppelin Home is an open-source platform that puts you in complete control of your smart home experience.
 
-![Zeppelin Home Logo](../media/zeppelin-logo.png)
+![Zeppelin Home Logo](../media/zeppelin-logo.svg)
 
 ---
 
@@ -26,7 +26,7 @@ Welcome to the future of home automation. Zeppelin Home is an open-source platfo
 
 **Zeppelin Home** is an innovative open-source platform designed to revolutionize home automation and smart living experiences. We believe that everyone deserves to have complete control over their smart home, without complexity or compromise.
 
-![Smart Home Dashboard](../media/dashboard-preview.png)
+![Smart Home Dashboard](../media/dashboard-preview.svg)
 
 ### 🌟 Key Features
 
@@ -47,7 +47,7 @@ To create an accessible, powerful, and community-driven home automation platform
 - **Community**: Join thousands of users and contributors building the future together
 - **Innovation**: Regular updates with cutting-edge features from our active development community
 
-![Community Growth](../media/community-stats.png)
+![Community Growth](../media/community-stats.svg)
 
 ---
 
@@ -55,7 +55,7 @@ To create an accessible, powerful, and community-driven home automation platform
 
 *Everything you need to know about Zeppelin Home for media coverage*
 
-![Press Kit Banner](../media/press-kit-banner.png)
+![Press Kit Banner](../media/press-kit-banner.svg)
 
 ### 🏢 Company Information
 
@@ -93,7 +93,7 @@ High-resolution logos, screenshots, and promotional materials are available in o
 - Promotional graphics and banners
 - Community photos and graphics
 
-![Media Assets Preview](../media/media-assets-preview.png)
+![Media Assets Preview](../media/media-assets-preview.svg)
 
 ### 📰 Press Releases
 
@@ -114,7 +114,7 @@ High-resolution logos, screenshots, and promotional materials are available in o
 
 *Help us build the future of home automation - together*
 
-![Crowdfunding Banner](../media/crowdfunding-banner.png)
+![Crowdfunding Banner](../media/crowdfunding-banner.svg)
 
 ### 🎯 Campaign Overview
 
@@ -129,7 +129,7 @@ The Zeppelin Home crowdfunding campaign aims to accelerate development and bring
 
 ### 💰 Funding Goals
 
-![Funding Progress](../media/funding-progress.png)
+![Funding Progress](../media/funding-progress.svg)
 
 **🎯 Primary Goal: $50,000**
 - ✅ Core platform development and stabilization
@@ -174,7 +174,7 @@ The Zeppelin Home crowdfunding campaign aims to accelerate development and bring
 
 *Transparency is key - here's exactly how your contributions will be used:*
 
-![Funding Breakdown](../media/funding-breakdown.png)
+![Funding Breakdown](../media/funding-breakdown.svg)
 
 - **🔧 Development (40%)**: Core platform features, bug fixes, and new functionality
 - **📱 Hardware (25%)**: Compatible device development and testing
@@ -231,7 +231,7 @@ We've identified potential risks and our mitigation strategies:
 
 *Connect with thousands of smart home enthusiasts and contribute to the future of home automation*
 
-![Community Banner](../media/community-banner.png)
+![Community Banner](../media/community-banner.svg)
 
 ### 🤝 Getting Help & Support
 
@@ -249,9 +249,9 @@ Join our Discord server for instant help and community discussions
 
 ### 🌐 Community Resources
 
-- **🌍 Official Website**: [zeppelinhome.com](https://zeppelinhome.com)
+- **🌍 Official Website**: [hannesmitterer.github.io/zeppelin-](https://hannesmitterer.github.io/zeppelin-/)
 - **💻 GitHub Repository**: [github.com/hannesmitterer/zeppelin-](https://github.com/hannesmitterer/zeppelin-)
-- **💬 Community Forum**: [community.zeppelinhome.com](https://community.zeppelinhome.com)  
+- **💬 Community Forum**: [GitHub Discussions](https://github.com/hannesmitterer/zeppelin-/discussions)  
 - **🎮 Discord Server**: [Join our Discord](https://discord.gg/zeppelinhome)
 - **📱 Social Media**: Follow us for updates and community highlights
 
@@ -317,7 +317,7 @@ We take security seriously:
 
 *Zeppelin Home is made possible by an amazing community of contributors, supporters, and believers in open-source smart home technology.*
 
-![Community Thank You](../media/community-thanks.png)
+![Community Thank You](../media/community-thanks.svg)
 
 ### 🌟 Our Community
 

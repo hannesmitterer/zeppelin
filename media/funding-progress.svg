@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <rect width="500" height="300" fill="#f8f9fa" stroke="#dee2e6" rx="10"/>
+  
+  <!-- Progress bar background -->
+  <rect x="50" y="100" width="400" height="30" fill="#e9ecef" rx="15"/>
+  <!-- Progress bar fill (65% progress) -->
+  <rect x="50" y="100" width="260" height="30" fill="#28a745" rx="15"/>
+  
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#343a40" text-anchor="middle">💰 Funding Progress</text>
+  <text x="250" y="90" font-family="Arial, sans-serif" font-size="14" fill="#6c757d" text-anchor="middle">$32,500 raised of $50,000 goal</text>
+  <text x="250" y="160" font-family="Arial, sans-serif" font-size="16" fill="#28a745" text-anchor="middle">65% Complete</text>
+  <text x="250" y="200" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">1,247 backers supporting the project</text>
+  <text x="250" y="220" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">28 days remaining</text>
+</svg>

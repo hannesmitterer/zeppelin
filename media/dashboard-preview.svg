@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="dashboardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#dashboardBg)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="600" height="60" fill="#343a40"/>
+  <text x="20" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#fff">🏠 Zeppelin Home Dashboard</text>
+  <circle cx="560" cy="30" r="15" fill="#28a745"/>
+  <text x="553" y="35" font-family="Arial, sans-serif" font-size="10" fill="#fff">●</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="60" width="150" height="340" fill="#495057"/>
+  <text x="20" y="90" font-family="Arial, sans-serif" font-size="12" fill="#fff">📊 Dashboard</text>
+  <text x="20" y="115" font-family="Arial, sans-serif" font-size="12" fill="#adb5bd">🏠 Rooms</text>
+  <text x="20" y="140" font-family="Arial, sans-serif" font-size="12" fill="#adb5bd">💡 Devices</text>
+  <text x="20" y="165" font-family="Arial, sans-serif" font-size="12" fill="#adb5bd">🔧 Automation</text>
+  <text x="20" y="190" font-family="Arial, sans-serif" font-size="12" fill="#adb5bd">📈 Analytics</text>
+  
+  <!-- Main content area -->
+  <rect x="150" y="60" width="450" height="340" fill="#fff"/>
+  
+  <!-- Device cards -->
+  <!-- Living Room Lights -->
+  <rect x="170" y="80" width="130" height="100" fill="url(#cardGrad)" rx="8"/>
+  <text x="185" y="105" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff">💡 Living Room</text>
+  <text x="185" y="125" font-family="Arial, sans-serif" font-size="10" fill="#fff">Lights: ON</text>
+  <text x="185" y="140" font-family="Arial, sans-serif" font-size="10" fill="#fff">Brightness: 75%</text>
+  <circle cx="270" cy="160" r="10" fill="#28a745"/>
+  
+  <!-- Thermostat -->
+  <rect x="320" y="80" width="130" height="100" fill="#17a2b8" rx="8"/>
+  <text x="335" y="105" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff">🌡️ Thermostat</text>
+  <text x="335" y="125" font-family="Arial, sans-serif" font-size="10" fill="#fff">Temperature: 72°F</text>
+  <text x="335" y="140" font-family="Arial, sans-serif" font-size="10" fill="#fff">Target: 70°F</text>
+  <circle cx="420" cy="160" r="10" fill="#ffc107"/>
+  
+  <!-- Security System -->
+  <rect x="170" y="200" width="130" height="100" fill="#28a745" rx="8"/>
+  <text x="185" y="225" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff">🔒 Security</text>
+  <text x="185" y="245" font-family="Arial, sans-serif" font-size="10" fill="#fff">Status: Armed</text>
+  <text x="185" y="260" font-family="Arial, sans-serif" font-size="10" fill="#fff">All sensors OK</text>
+  <circle cx="270" cy="280" r="10" fill="#fff"/>
+  
+  <!-- Energy Monitor -->
+  <rect x="320" y="200" width="130" height="100" fill="#fd7e14" rx="8"/>
+  <text x="335" y="225" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff">⚡ Energy</text>
+  <text x="335" y="245" font-family="Arial, sans-serif" font-size="10" fill="#fff">Usage: 2.4 kW</text>
+  <text x="335" y="260" font-family="Arial, sans-serif" font-size="10" fill="#fff">Today: $3.20</text>
+  <circle cx="420" cy="280" r="10" fill="#28a745"/>
+  
+  <!-- Status indicators -->
+  <text x="470" y="100" font-family="Arial, sans-serif" font-size="12" fill="#495057">System Status</text>
+  <text x="470" y="120" font-family="Arial, sans-serif" font-size="10" fill="#28a745">● Online</text>
+  <text x="470" y="135" font-family="Arial, sans-serif" font-size="10" fill="#28a745">● 24 devices</text>
+  <text x="470" y="150" font-family="Arial, sans-serif" font-size="10" fill="#28a745">● All secure</text>
+  
+</svg>
