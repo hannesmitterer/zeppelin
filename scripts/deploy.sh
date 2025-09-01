@@ -34,11 +34,29 @@ print_error() {
 check_environment() {
     if [[ ! -f "_config.yml" || ! -f "Gemfile" ]]; then
         print_error "This script must be run from the repository root!"
+        print_warning "Required files: _config.yml, Gemfile"
+        exit 1
+    fi
+    
+    # Check Ruby version
+    if command -v ruby &> /dev/null; then
+        local ruby_version=$(ruby --version | grep -o '[0-9]\+\.[0-9]\+')
+        local major_version=$(echo $ruby_version | cut -d. -f1)
+        local minor_version=$(echo $ruby_version | cut -d. -f2)
+        
+        if [[ $major_version -lt 3 ]] || [[ $major_version -eq 3 && $minor_version -lt 2 ]]; then
+            print_warning "Ruby version $ruby_version detected. Ruby 3.2+ recommended for best compatibility."
+            print_warning "GitHub Actions uses Ruby 3.2. Consider upgrading to match."
+        fi
+    else
+        print_error "Ruby is not installed. Please install Ruby 3.2+ and bundler."
         exit 1
     fi
     
     if ! command -v bundle &> /dev/null; then
-        print_error "Bundler is not installed. Please install with: gem install bundler"
+        print_error "Bundler is not installed."
+        print_warning "Install with: gem install bundler"
+        print_warning "Or with user install: gem install --user-install bundler"
         exit 1
     fi
 }
@@ -46,7 +64,8 @@ check_environment() {
 # Install dependencies
 install_deps() {
     echo -e "${BLUE}📦 Installing Jekyll dependencies...${NC}"
-    bundle install --path vendor/bundle
+    bundle config set --local path 'vendor/bundle'
+    bundle install
     print_success "Dependencies installed"
 }
 
