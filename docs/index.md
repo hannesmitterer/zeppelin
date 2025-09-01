@@ -85,7 +85,7 @@ Zeppelin Home represents the next generation of home automation platforms, combi
 
 ### 🎨 Media Assets
 
-High-resolution logos, screenshots, and promotional materials are available in our [media kit repository](https://github.com/hannesmitterer/zeppelin-/tree/main/media).
+High-resolution logos, screenshots, and promotional materials are available in our [media kit repository](https://github.com/hannesmitterer/zeppelin/tree/main/media).
 
 **Available assets:**
 - Logos (PNG, SVG, various sizes)
@@ -250,7 +250,7 @@ Join our Discord server for instant help and community discussions
 ### 🌐 Community Resources
 
 - **🌍 Official Website**: [zeppelinhome.com](https://zeppelinhome.com)
-- **💻 GitHub Repository**: [github.com/hannesmitterer/zeppelin-](https://github.com/hannesmitterer/zeppelin-)
+- **💻 GitHub Repository**: [github.com/hannesmitterer/zeppelin](https://github.com/hannesmitterer/zeppelin)
 - **💬 Community Forum**: [community.zeppelinhome.com](https://community.zeppelinhome.com)  
 - **🎮 Discord Server**: [Join our Discord](https://discord.gg/zeppelinhome)
 - **📱 Social Media**: Follow us for updates and community highlights
@@ -344,7 +344,7 @@ Built on the shoulders of countless open-source projects and maintainers
 
 *Ready to join the smart home revolution?*
 
-**Get Started Today:** [Download Zeppelin Home](https://github.com/hannesmitterer/zeppelin-) | [Join Our Community](https://discord.gg/zeppelinhome) | [Support Our Mission](#support-our-mission)
+**Get Started Today:** [Download Zeppelin Home](https://github.com/hannesmitterer/zeppelin) | [Join Our Community](https://discord.gg/zeppelinhome) | [Support Our Mission](#support-our-mission)
 
 ---
 

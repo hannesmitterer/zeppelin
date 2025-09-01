@@ -2,10 +2,10 @@
 title: "Zeppelin Home"
 description: "Revolutionary home automation platform - Open source, community-driven smart home solutions"
 baseurl: ""
-url: "https://hannesmitterer.github.io/zeppelin-"
+url: "https://hannesmitterer.github.io/zeppelin"
 
 # GitHub Pages settings
-repository: hannesmitterer/zeppelin-
+repository: hannesmitterer/zeppelin
 github_username: hannesmitterer
 
 # Jekyll theme
@@ -21,7 +21,7 @@ author:
   email: "press@zeppelinhome.com"
 
 social_links:
-  - { platform: github, user_url: "https://github.com/hannesmitterer/zeppelin-" }
+  - { platform: github, user_url: "https://github.com/hannesmitterer/zeppelin" }
 
 # Plugins
 plugins:
@@ -53,6 +53,8 @@ exclude:
   - vendor/ruby/
   - .github/
   - GITHUB_PAGES_SETUP.md
+  - GITHUB_PAGES_READY.md
+  - FLOATING_LIVING.md
   - .bundle/
   - .github-pages-cache/
 
