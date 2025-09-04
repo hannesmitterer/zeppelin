@@ -25,8 +25,6 @@ Ultimate Mobility & Freedom
 
 Break free from traditional real estate constraints. Your Zeppelin Home adapts to any climate and location, from urban skylines to remote natural wonders. With cross-platform compatibility for various landing systems and international airspace integration, the world truly becomes your neighborhood.
 
-Ready to Elevate Your Living?
-
 Join the revolution in modern living. Experience the freedom, luxury, and innovation that only Zeppelin Home can provide.
 
 Learn More
@@ -41,7 +39,6 @@ Contact us to schedule your exclusive preview flight.
 
 
 ZeppelinSmart is a revolutionary AI based Platfrom for Building Automation - Home & Business - an open-source smart home automation platform that puts privacy and community first.
-
 
 Our GitHub Pages site showcases:
 - Product overview and key features
