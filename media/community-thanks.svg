@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+  <defs>
+    <linearGradient id="thanksBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fd7e14;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc107;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#thanksBg)" rx="10"/>
+  <text x="300" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#fff" text-anchor="middle">💝 Thank You!</text>
+  <text x="300" y="140" font-family="Arial, sans-serif" font-size="18" fill="#fff" text-anchor="middle">To our amazing community</text>
+  <text x="300" y="180" font-family="Arial, sans-serif" font-size="14" fill="#fff" opacity="0.9" text-anchor="middle">Contributors • Supporters • Beta Testers • Everyone</text>
+  <text x="300" y="220" font-family="Arial, sans-serif" font-size="14" fill="#fff" opacity="0.9" text-anchor="middle">Building the future of smart homes together ❤️</text>
+</svg>

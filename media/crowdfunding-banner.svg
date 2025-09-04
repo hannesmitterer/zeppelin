@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="700" height="200">
+  <defs>
+    <linearGradient id="crowdBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#28a745;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20c997;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="700" height="200" fill="url(#crowdBg)" rx="10"/>
+  <text x="50" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff">💰 Support Our Mission</text>
+  <text x="50" y="110" font-family="Arial, sans-serif" font-size="16" fill="#fff">Help us build the future of home automation</text>
+  <text x="50" y="140" font-family="Arial, sans-serif" font-size="14" fill="#fff" opacity="0.9">Open Source • Community-Driven • Privacy-First</text>
+</svg>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <defs>
+    <linearGradient id="chartBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="300" fill="url(#chartBg)" rx="10"/>
+  
+  <!-- Title -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#343a40" text-anchor="middle">📈 Community Growth Statistics</text>
+  
+  <!-- Chart area -->
+  <rect x="50" y="50" width="400" height="200" fill="#fff" rx="5" stroke="#dee2e6"/>
+  
+  <!-- Y-axis labels -->
+  <text x="40" y="75" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">1000</text>
+  <text x="40" y="125" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">500</text>
+  <text x="40" y="175" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">100</text>
+  <text x="40" y="225" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">0</text>
+  
+  <!-- Grid lines -->
+  <line x1="50" y1="75" x2="450" y2="75" stroke="#f8f9fa" stroke-width="1"/>
+  <line x1="50" y1="125" x2="450" y2="125" stroke="#f8f9fa" stroke-width="1"/>
+  <line x1="50" y1="175" x2="450" y2="175" stroke="#f8f9fa" stroke-width="1"/>
+  <line x1="50" y1="225" x2="450" y2="225" stroke="#f8f9fa" stroke-width="1"/>
+  
+  <!-- Bars -->
+  <!-- Q1 2024 -->
+  <rect x="80" y="200" width="50" height="25" fill="url(#barGrad)" rx="2"/>
+  <text x="105" y="270" font-family="Arial, sans-serif" font-size="10" fill="#6c757d" text-anchor="middle">Q1 2024</text>
+  <text x="105" y="195" font-family="Arial, sans-serif" font-size="10" fill="#343a40" text-anchor="middle">150</text>
+  
+  <!-- Q2 2024 -->
+  <rect x="150" y="175" width="50" height="50" fill="url(#barGrad)" rx="2"/>
+  <text x="175" y="270" font-family="Arial, sans-serif" font-size="10" fill="#6c757d" text-anchor="middle">Q2 2024</text>
+  <text x="175" y="170" font-family="Arial, sans-serif" font-size="10" fill="#343a40" text-anchor="middle">300</text>
+  
+  <!-- Q3 2024 -->
+  <rect x="220" y="125" width="50" height="100" fill="url(#barGrad)" rx="2"/>
+  <text x="245" y="270" font-family="Arial, sans-serif" font-size="10" fill="#6c757d" text-anchor="middle">Q3 2024</text>
+  <text x="245" y="120" font-family="Arial, sans-serif" font-size="10" fill="#343a40" text-anchor="middle">600</text>
+  
+  <!-- Q4 2024 -->
+  <rect x="290" y="100" width="50" height="125" fill="url(#barGrad)" rx="2"/>
+  <text x="315" y="270" font-family="Arial, sans-serif" font-size="10" fill="#6c757d" text-anchor="middle">Q4 2024</text>
+  <text x="315" y="95" font-family="Arial, sans-serif" font-size="10" fill="#343a40" text-anchor="middle">850</text>
+  
+  <!-- Q1 2025 (Projected) -->
+  <rect x="360" y="75" width="50" height="150" fill="#28a745" rx="2" opacity="0.8"/>
+  <text x="385" y="270" font-family="Arial, sans-serif" font-size="10" fill="#6c757d" text-anchor="middle">Q1 2025</text>
+  <text x="385" y="70" font-family="Arial, sans-serif" font-size="10" fill="#343a40" text-anchor="middle">1200+</text>
+  <text x="385" y="285" font-family="Arial, sans-serif" font-size="8" fill="#28a745" text-anchor="middle">(Projected)</text>
+  
+  <!-- Legend -->
+  <rect x="60" y="280" width="10" height="10" fill="url(#barGrad)"/>
+  <text x="75" y="289" font-family="Arial, sans-serif" font-size="10" fill="#6c757d">Active Contributors</text>
+  
+  <rect x="200" y="280" width="10" height="10" fill="#28a745"/>
+  <text x="215" y="289" font-family="Arial, sans-serif" font-size="10" fill="#6c757d">Projected Growth</text>
+</svg>
