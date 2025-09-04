@@ -143,11 +143,21 @@ validate_build() {
     echo -e "${BLUE}🔨 Validating build process...${NC}"
     
     # Jekyll doesn't support --dry-run, so we'll do a quick validation instead
-    if bundle exec jekyll build --config _config.yml,_config_test.yml 2>/dev/null || bundle exec jekyll build 2>/dev/null; then
-        print_success "Jekyll build validation successful"
+    if [[ -f "_config_test.yml" ]]; then
+        if bundle exec jekyll build --config _config.yml,_config_test.yml 2>/dev/null; then
+            print_success "Jekyll build validation successful (with test config)"
+        else
+            print_warning "Jekyll build failed with test config - running full build test"
+            ./scripts/deploy.sh test
+        fi
     else
-        print_warning "Jekyll build failed - running full build test"
-        ./scripts/deploy.sh test
+        print_warning "Test config missing: _config_test.yml. Running build with default config only."
+        if bundle exec jekyll build --config _config.yml 2>/dev/null; then
+            print_success "Jekyll build validation successful (default config only)"
+        else
+            print_warning "Jekyll build failed - running full build test"
+            ./scripts/deploy.sh test
+        fi
     fi
 }
 
